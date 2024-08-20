@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: student_management
+    env: node
+    buildCommand: cd server && npm install
+    startCommand: npm start
+    branch: master
